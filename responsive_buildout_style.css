@@ -88,13 +88,23 @@ header{
     padding: 20px;
   }
   #sidebar_content{
+    /*background-color: #ffffdd*/
+  }
+  #sidebar_content> div{
     background-color: #ffffdd;
+    margin: 20px 0;
+    padding: 20px;
   }
   #site_footer{
     background-color: #facb95;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
   }
-  nav a{
-    display: inline;
-    padding: 15px;
+  /*nav> a{
+    display: flex;
+    align-items: center;*/
   }
+}
