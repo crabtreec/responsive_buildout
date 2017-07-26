@@ -114,9 +114,21 @@ justify-content: center;
 }
 #sidebar_content{
   display: flex;
+  justify-content: center;
   background-color: #ffffdd;
   margin: 20px 0;
   padding: 0;
-
 }
+#main_content{
+  display: block;
+}
+}
+
+@media only screen and (min-width: 1020px) {
+#main_content{
+  display: flex;
+}
+header{
+  display: flex;
+  flex-direction: row;
 }
