@@ -89,7 +89,27 @@ header{
   padding: 20px;
   margin: 20px 0;
 }
+#site_footer{
+  display: flex;
+  background-color: #ffd093;
+  padding: 15px 20px;
+  justify-content: center;
+}
+#site_footer a{
+  display: inline;
+  padding: 10px;
 
-@media only screen and (min-width: 300px) {
+}
+
+@media only screen and (min-width: 650px) {
     /* For mobile phones: */
+#main_nav{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+}
+#main_nav a{
+  flex: 1;
+  margin:  8px;
+}
 }
